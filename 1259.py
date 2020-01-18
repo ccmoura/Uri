@@ -13,6 +13,6 @@ for i in range(0, n):
 pares.sort()
 impares.sort(reverse=True)
 for x in pares:
-    print(x + "\n")
+    print("%s" % x)
 for y in impares:
-    print(x + "\n")
+    print("%s" % y)
